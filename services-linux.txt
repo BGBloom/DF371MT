@@ -1,1 +1,1 @@
-#This file should list all services and additional information for the linux machine, one per line.
+#This file should list all services and additional information for the Linux machine, one per line.
