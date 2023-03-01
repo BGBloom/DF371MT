@@ -1,0 +1,3 @@
+#list any successful exploits, one per line.
+#You must also provide the filename(s) for screenshot(s) submitted as proof of each exploit.  
+#Please name the screenshots something meaningful.  Screencasts are also acceptable.
