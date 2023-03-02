@@ -1,1 +1,11 @@
 #This file should list all services and additional information for the Windows machine, one per line.
+
+host            port  proto  name          state   info
+----            ----  -----  ----          -----   ----
+192.168.56.109  21    tcp    ftp           open    FreeFloat ftpd 1.00
+192.168.56.109  80    tcp    http          open    Xitami httpd
+192.168.56.109  81    tcp    http          open    Xitami httpd admin port
+192.168.56.109  139   tcp    netbios-ssn   open    Microsoft Windows netbios-ssn
+192.168.56.109  445   tcp    microsoft-ds  open    Windows XP microsoft-ds
+192.168.56.109  2869  tcp    icslap        closed
+192.168.56.109  9999  tcp    vulnserver    open    Vulnserver
