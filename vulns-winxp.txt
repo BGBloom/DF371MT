@@ -1,1 +1,2 @@
 #Each line should contain information on a vulnerability you have discovered for the Windows machine.
+CVE-2012-5106 - Stack buffer Overflow in FreeFloat FTP Server 1.0 - Allows remote authenticated users to execute arbitrary code via a long string in a PUT command
