@@ -5,3 +5,6 @@ sys:batman:14742:0:99999:7:::     #Found in shadowfile of the linux machine
 klog:123456789:14742:0:99999:7::: #Found in shadowfile of the linux machine
 guest:huskies:16491:0:99999:7:::  #Found in shadowfile of the linux machine
 postgres:postgres:0:99999:7:::    #Found in shadowfile of the linux machine
+
+pam_unix(passwd:chauthtok)
+#If there is any consolation, I can see that you deleted the msfadmin account on february 24th in the /var/log/auth.log file
