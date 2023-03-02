@@ -8,17 +8,17 @@ PORT:22/tcp STATE:open  SERVICE:ssh     VERSION:OpenSSH 4.7p1 Debian 8ubuntu1 (p
   Running: Linux 2.6.X (Linux 2.6.9 - 2.6.33)
   OS CPE: cpe:/o:linux:linux_kernel:2.6
   Network Distance: 1 hop
-  host            port  proto  name          state   info
-----            ----  -----  ----          -----   ----
-192.168.56.104  22    tcp    ssh           open    OpenSSH 4.7p1 Debian 8ubuntu1 protocol 2.0
-192.168.56.104  25    tcp    smtp          open    Postfix smtpd
-192.168.56.104  53    tcp    domain        open    ISC BIND 9.4.2
-192.168.56.104  80    tcp    http          open    Apache httpd 2.2.8 (Ubuntu) DAV/2
-192.168.56.104  111   tcp    rpcbind       open    2 RPC #100000
-192.168.56.104  139   tcp    netbios-ssn   open    Samba smbd 3.X - 4.X workgroup: WORKGROUP
-192.168.56.104  445   tcp    netbios-ssn   open    Samba smbd 3.0.20-Debian workgroup: WORKGROUP
-192.168.56.104  3632  tcp    distccd       open    distccd v1 (GNU) 4.2.4 (Ubuntu 4.2.4-1ubuntu4)
-192.168.56.104  5432  tcp    postgresql    open    PostgreSQL DB 8.3.0 - 8.3.7
-192.168.56.104  8009  tcp    ajp13         open    Apache Jserv Protocol v1.3
-192.168.56.104  8180  tcp    http          open    Apache Tomcat/Coyote JSP engine 1.1
+port proto  name              info
+----  -----  ----            ----
+22    tcp    ssh             OpenSSH 4.7p1 Debian 8ubuntu1 protocol 2.0
+25    tcp    smtp            Postfix smtpd
+53    tcp    domain          ISC BIND 9.4.2
+80    tcp    http            Apache httpd 2.2.8 (Ubuntu) DAV/2
+111   tcp    rpcbind         2 RPC #100000
+139   tcp    netbios-ssn     Samba smbd 3.X - 4.X workgroup: WORKGROUP
+445   tcp    netbios-ssn     Samba smbd 3.0.20-Debian workgroup: WORKGROUP
+3632  tcp    distccd         distccd v1 (GNU) 4.2.4 (Ubuntu 4.2.4-1ubuntu4)
+5432  tcp    postgresql      PostgreSQL DB 8.3.0 - 8.3.7
+8009  tcp    ajp13           Apache Jserv Protocol v1.3
+8180  tcp    http            Apache Tomcat/Coyote JSP engine 1.1
 
