@@ -1,1 +1,10 @@
 #This file should list all services and additional information for the Linux machine, one per line.
+
+PORT:22/tcp STATE:open  SERVICE:ssh     VERSION:OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)
+  | ssh-hostkey: 
+  |   1024 600fcfe1c05f6a74d69024fac4d56ccd (DSA)
+  |_  2048 5656240f211ddea72bae61b1243de8f3 (RSA)
+  MAC Address: 08:00:27:79:8E:74 (Oracle VirtualBox virtual NIC)
+  Running: Linux 2.6.X (Linux 2.6.9 - 2.6.33)
+  OS CPE: cpe:/o:linux:linux_kernel:2.6
+  Network Distance: 1 hop
