@@ -1,5 +1,7 @@
 #Each line should contain information on a vulnerability you have discovered for the Linux machine.
 
+CVE-2008-1948, CVE-2008-1949, CVE-2008-1950 - Multiple flaws were discovered in the connection handling of GnuTLS. A remote attacker could exploit this to crash applications linked against GnuTLS, or possibly execute arbitrary code with permissions of the application's user.
+
 #Port 22 Vulnerabilities for OPENSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)
 CVE-2007-4752 - SSH in OpenSSH before 4.7 does not properly handle when an untrusted cookie cannot be created and uses a trusted X11 cookie instead, which allows attackers to violate intended policy and gain privileges by causing an X client to be treated as trusted. 
 CVE-2010-4478 - When J-PAKE is enabled, does not properly validate the public parameters in the J-PAKE protocol, which allows remote attackers to bypass the need for knowledge of the shared secret, and successfully authenticate, by sending crafted values in each round of the protocol, a related issue to CVE-2010-4252.
@@ -13,3 +15,11 @@ CVE-2008-3259 - OpenSSH before 5.1 sets the SO_REUSEADDR socket option when the 
 CVE-2014-6271 - (A.K.A. ShellShock) The remote host is running a version of Bash that is vulnerable to command injection via environment variable manipulation. Depending on the configuration of the system, an attacker could remotely execute arbitrary code.
 
 #Port 53 vulnerabilities for ISC BIND 9.4.2
+CVE-2012-1667 - SC BIND 9.4.2 does not properly handle resource records with a zero-length RDATA section, which allows remote DNS servers to cause a denial of service (daemon crash or data corruption) or obtain sensitive information from process memory via a crafted record.
+CVE-2012-3817 - When DNSSEC validation is enabled, does not properly initialize the failing-query cache, which allows remote attackers to cause a denial of service (assertion failure and daemon exit) by sending many queries.
+CVE-2014-8500 - ISC BIND 9.4.2 does not limit delegation chaining, which allows remote attackers to cause a denial of service (memory consumption and named crash) via a large or infinite number of referrals.
+CVE-2012-5166 - ISC BIND 9.4.2 allows remote attackers to cause a denial of service (named daemon hang) via unspecified combinations of resource records.
+CVE-2012-4244 - ISC BIND 9.4.2 allows remote attackers to cause a denial of service (assertion failure and named daemon exit) via a query for a long resource record.
+CVE-2008-4163 - Unspecified vulnerability in ISC BIND 9.4.2 on Windows allows remote attackers to cause a denial of service (UDP client handler termination) via unknown vectors.
+CVE-2010-0382 - ISC BIND 9.4.2 handles out-of-bailiwick data accompanying a secure response without re-fetching from the original source, which allows remote attackers to have an unspecified impact via a crafted response, aka Bug 20819. NOTE: this vulnerability exists because of a regression during the fix for CVE-2009-4022.
+CVE-2017-3141 - The BIND installer on Windows uses an unquoted service path which can enable a local user to achieve privilege escalation if the host file system permissions allow this.
