@@ -1,2 +1,4 @@
 #Each line should contain information on a vulnerability you have discovered for the Windows machine.
 CVE-2012-5106 - Stack buffer Overflow in FreeFloat FTP Server 1.0 - Allows remote authenticated users to execute arbitrary code via a long string in a PUT command
+CVE-2008-4250 - MS08-067 -  allows remote attackers to execute arbitrary code via a crafted RPC request that triggers the overflow during path canonicalization aka "Server Service Vulnerability."
+CVE-2008-4844 - MS08-078 - Use-after-free vulnerability in the CRecordInstance::TransferToDestination function in mshtml.dll in Microsoft Internet Explorer 5.01, 6, 6 SP1, and 7 allows remote attackers to execute arbitrary code via DSO bindings involving (1) an XML Island, (2) XML DSOs, or (3) Tabular Data Control (TDC) in a crafted HTML or XML document, as demonstrated by nested SPAN or MARQUEE elements, and exploited in the wild in December 2008.
