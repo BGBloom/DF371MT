@@ -6,6 +6,15 @@ klog:123456789:14742:0:99999:7::: #Found in shadowfile of the linux machine
 guest:huskies:16491:0:99999:7:::  #Found in shadowfile of the linux machine
 postgres:postgres:0:99999:7:::    #Found in shadowfile of the linux machine
 
+## Xitami ###
+jacky:robusta
+#admin is disabled. The rest of the following Xitami credentials are not active accounts
+Admin=LinPipTea
+Jonas=realtime
+Sarah=arabica
+Admin=QzeCat96
+Root=PakYupTon
+
 FreeFloat literally any combination of usernames and passwords work
 ### userhelper pam_unix(passwd:chauthtok)
 #If there is any consolation, I can see that you deleted the msfadmin account on february 24th in the /var/log/auth.log file
