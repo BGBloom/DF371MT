@@ -6,3 +6,4 @@ CVE-2009-3671 -
 CVE-2009-3672 - 
 CVE-2009-3673 - 
 CVE-2009-3674 - 
+Lack of Authentication in the FTP Server for the Windows Box on Port 21 grants access to any user/password combination.
