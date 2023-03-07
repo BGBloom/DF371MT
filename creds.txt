@@ -18,6 +18,7 @@ Root=PakYupTon
 ## Windows ###
 Administrator:password1
 HelpAssistant: BEOQYEL
+Joe Luiser
 
 ##TWIKI LINUX##
 TWikiGuest:guest
