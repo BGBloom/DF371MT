@@ -23,3 +23,10 @@ CVE-2012-4244 - ISC BIND 9.4.2 allows remote attackers to cause a denial of serv
 CVE-2008-4163 - Unspecified vulnerability in ISC BIND 9.4.2 on Windows allows remote attackers to cause a denial of service (UDP client handler termination) via unknown vectors.
 CVE-2010-0382 - ISC BIND 9.4.2 handles out-of-bailiwick data accompanying a secure response without re-fetching from the original source, which allows remote attackers to have an unspecified impact via a crafted response, aka Bug 20819. NOTE: this vulnerability exists because of a regression during the fix for CVE-2009-4022.
 CVE-2017-3141 - The BIND installer on Windows uses an unquoted service path which can enable a local user to achieve privilege escalation if the host file system permissions allow this.
+
+
+
+
+
+### userhelper pam_unix(passwd:chauthtok)
+#If there is any consolation, I can see that you deleted the msfadmin account on february 24th in the /var/log/auth.log file
