@@ -25,6 +25,7 @@ TWikiGuest:guest
 GrantBow:harder5
 PeterThoeny:l0tus
 NicholasLee:twiki
+JohnTalintyre:intwww
 
  ##UNCRACKED##
 AndreaSterbini:zuUMZlkXvUR6Y
