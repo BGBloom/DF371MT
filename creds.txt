@@ -15,6 +15,16 @@ Sarah=arabica
 Admin=QzeCat96
 Root=PakYupTon
 
+TWikiGuest:guest
+GrantBow:harder5
+PeterThoeny:l0tus
+NicholasLee:twiki
+
+ ##UNCRACKED##
+AndreaSterbini:zuUMZlkXvUR6Y
+JohnTalintyre:2fl31yuNhvMrU
+MikeMannix:euHykHV5Q2miA
+RichardDonkin:pAVoSPpUf3xt2
+
+
 FreeFloat literally any combination of usernames and passwords work
-### userhelper pam_unix(passwd:chauthtok)
-#If there is any consolation, I can see that you deleted the msfadmin account on february 24th in the /var/log/auth.log file
