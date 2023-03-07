@@ -19,7 +19,6 @@ CVE-2012-1667 - SC BIND 9.4.2 does not properly handle resource records with a z
 CVE-2012-3817 - When DNSSEC validation is enabled, does not properly initialize the failing-query cache, which allows remote attackers to cause a denial of service (assertion failure and daemon exit) by sending many queries.
 CVE-2014-8500 - ISC BIND 9.4.2 does not limit delegation chaining, which allows remote attackers to cause a denial of service (memory consumption and named crash) via a large or infinite number of referrals.
 CVE-2012-5166 - ISC BIND 9.4.2 allows remote attackers to cause a denial of service (named daemon hang) via unspecified combinations of resource records.
-CVE-2012-4244 - ISC BIND 9.4.2 allows remote attackers to cause a denial of service (assertion failure and named daemon exit) via a query for a long resource record.
 CVE-2008-4163 - Unspecified vulnerability in ISC BIND 9.4.2 on Windows allows remote attackers to cause a denial of service (UDP client handler termination) via unknown vectors.
 CVE-2010-0382 - ISC BIND 9.4.2 handles out-of-bailiwick data accompanying a secure response without re-fetching from the original source, which allows remote attackers to have an unspecified impact via a crafted response, aka Bug 20819. NOTE: this vulnerability exists because of a regression during the fix for CVE-2009-4022.
 CVE-2017-3141 - The BIND installer on Windows uses an unquoted service path which can enable a local user to achieve privilege escalation if the host file system permissions allow this.
