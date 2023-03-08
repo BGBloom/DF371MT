@@ -37,6 +37,9 @@ MikeMannix:euHykHV5Q2miA
 "postgres" "md53175bce1d3201d16594cebf9d7eb3f9d" "postgres"
 
 FreeFloat literally any combination of usernames and passwords work
+anonymous:anonymous
+a:avery
+test:test
 
 ##SSH Private Key##
 -----BEGIN RSA PRIVATE KEY-----
