@@ -32,7 +32,6 @@ RichardDonkin:tacsan1
  ##UNCRACKED##
 AndreaSterbini:zuUMZlkXvUR6Y
 MikeMannix:euHykHV5Q2miA
-RichardDonkin:pAVoSPpUf3xt2
 
 ##postgres credential##
 "postgres" "md53175bce1d3201d16594cebf9d7eb3f9d" "postgres"
