@@ -1,12 +1,14 @@
 #List any user credentials you obtained, one per line. Logins without a password don't count.
-###Username:Password:LastPasswordChange(# of days is counted since January 1, 1970 [epoch date]):MinPasswordAge:MaxPasswordAge:WarningPeriod:::
+#Username:Password:LastPasswordChange(# of days is counted since January 1, 1970 [epoch date]):MinPasswordAge:MaxPasswordAge:WarningPeriod:::
+
+service:service:14715:0:99999:7:::#Found in shadowfile of the linux machine
 root:Huskies:16491:0:99999:7:::   #Found in shadowfile of the linux machine
 sys:batman:14742:0:99999:7:::     #Found in shadowfile of the linux machine
 klog:123456789:14742:0:99999:7::: #Found in shadowfile of the linux machine
 guest:huskies:16491:0:99999:7:::  #Found in shadowfile of the linux machine
 postgres:postgres:0:99999:7:::    #Found in shadowfile of the linux machine
 
-## Xitami ###
+## Xitami ##
 jacky:robusta
 #admin is disabled. The rest of the following Xitami credentials are not active accounts
 Admin=LinPipTea
@@ -15,11 +17,10 @@ Sarah=arabica
 Admin=QzeCat96
 Root=PakYupTon
 
-## Windows ###
+## Windows ##
 Administrator:password1
 HelpAssistant: BEOQYEL
 Joe Luiser
-
 ##TWIKI LINUX##
 TWikiGuest:guest
 GrantBow:harder5
