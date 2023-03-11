@@ -1,4 +1,13 @@
 #Each line should contain information on a vulnerability you have discovered for the Windows machine.
+Vulnserver: GMON - Stack Buffer Overflow
+Vulnserver: GTER - Egghunter
+Vulnserver: GTER - Socket reuse
+Vulnserver: HTER - Hex Buffer Overflow
+Vulnserver: KSTET - Egghunter
+Vulnserver: KSTET - Socket Reuse
+Vulnserver: LTER - Structured Exception Handler Overflow
+Vulnserver: TRUN - Vanilla Buffer Overflow
+Vulnserver: TRUN -Socket Reuse
 CVE-2019-0708 - WHILE REMOTE DESKTOP ISN'T CURRENTLY ENABLED, it's very easy to - A remote code execution vulnerability exists in Remote Desktop Services when an unauthenticated attacker connects to the target system using RDP and sends specially crafted requests, aka 'Remote Desktop Services Remote Code Execution Vulnerability'.
 CVE-2012-5106 - Stack buffer Overflow in FreeFloat FTP Server 1.0 - Allows remote authenticated users to execute arbitrary code via a long string in a PUT command
 CVE-2008-4250 - MS08-067 -  allows remote attackers to execute arbitrary code via a crafted RPC request that triggers the overflow during path canonicalization aka "Server Service Vulnerability."
